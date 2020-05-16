@@ -1,0 +1,1 @@
+\\Mac\Home\Downloads\xaml-getting-started\11\demos\before\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp.csproj;x64
