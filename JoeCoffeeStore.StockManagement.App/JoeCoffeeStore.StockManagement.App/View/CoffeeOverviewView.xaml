@@ -1,0 +1,86 @@
+﻿<Controls:MetroWindow x:Class="JoeCoffeeStore.StockManagement.App.View.CoffeeOverviewView"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      Title="Joe's Coffee Store stock management" 
+                      Height="480" 
+                      Width="640"
+                      DataContext="{Binding Source={StaticResource mainViewModelLocator},  Path=CoffeeOverviewViewModel}"                    
+                      >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <ListView Grid.Column="0" Margin="5" 
+                  Name="CoffeeListView" 
+                  ItemsSource="{Binding Coffees}" 
+                  SelectedItem="{Binding SelectedCoffee}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#CCCCCC" BorderThickness="1">
+                        <Grid Background="{Binding AmountInStock, Converter={StaticResource localAmountInStockConverter}}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="3*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="15"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Image Source="{Binding ImageId, Converter={StaticResource localImageConverter}}" Grid.RowSpan="2" VerticalAlignment="Center" ></Image>
+                            <Label Content="{Binding CoffeeName}" FontSize="14" Grid.Column="1"  Grid.ColumnSpan="2" FontWeight="Bold"></Label>
+                            <StackPanel  Grid.Row="1" Orientation="Horizontal" Grid.Column="1">
+                                <Label Content="Stock: "></Label>
+                                <Label Content="{Binding AmountInStock}"></Label>
+                            </StackPanel>
+                            <Label Content="{Binding Price, Converter={StaticResource localPriceConverter}}" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="2" ></Label>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Grid Grid.Column="1" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Image Source="{Binding SelectedCoffee.ImageId, Converter={StaticResource localImageConverter}, Mode=OneWay}" Grid.Row="0"
+                   Grid.ColumnSpan="2" MaxHeight="150" MaxWidth="150"></Image>
+            <Label Grid.Row="1" Content="Id" FontWeight="Bold"></Label>
+            <Label Grid.Row="2" Content="Coffee name" FontWeight="Bold"></Label>
+            <Label Grid.Row="3" Content="Description" FontWeight="Bold"></Label>
+            <Label Grid.Row="4" Content="Price" FontWeight="Bold"></Label>
+            <Label Grid.Row="5" Content="Stock amount" FontWeight="Bold"></Label>
+            <Label Grid.Row="6" Content="First time added" FontWeight="Bold"></Label>
+
+            <Label Grid.Row="1" Grid.Column="1" Content="{Binding SelectedCoffee.CoffeeId, Mode=OneWay}"></Label>
+            <Label Grid.Row="2" Grid.Column="1" Content="{Binding SelectedCoffee.CoffeeName, Mode=OneWay}"></Label>
+            <Label Grid.Row="3" Grid.Column="1" Content="{Binding SelectedCoffee.Description, Mode=OneWay}"></Label>
+            <Label Grid.Row="4" Grid.Column="1" Content="{Binding SelectedCoffee.Price, Mode=OneWay}"></Label>
+            <Label Grid.Row="5" Grid.Column="1" Content="{Binding SelectedCoffee.AmountInStock, Mode=OneWay}"></Label>
+            <Label Grid.Row="6" Grid.Column="1" Content="{Binding SelectedCoffee.FirstAddedToStockDate, Mode=OneWay}"></Label>
+
+            <StackPanel Grid.Row="7" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Edit" Command="{Binding EditCommand}"/>
+            </StackPanel>
+            
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>

@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\bin\Debug\JoeCoffeeStore.StockManagement.DAL.dll
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\bin\Debug\JoeCoffeeStore.StockManagement.DAL.pdb
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\bin\Debug\JoeCoffeeStore.StockManagement.Model.dll
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\bin\Debug\JoeCoffeeStore.StockManagement.Model.pdb
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\obj\Debug\JoeCoffeeStore.StockManagement.DAL.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\obj\Debug\JoeCoffeeStore.StockManagement.DAL.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\obj\Debug\JoeCoffeeStore.StockManagement.DAL.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\obj\Debug\JoeCoffeeStore.StockManagement.DAL.dll
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.DAL\obj\Debug\JoeCoffeeStore.StockManagement.DAL.pdb

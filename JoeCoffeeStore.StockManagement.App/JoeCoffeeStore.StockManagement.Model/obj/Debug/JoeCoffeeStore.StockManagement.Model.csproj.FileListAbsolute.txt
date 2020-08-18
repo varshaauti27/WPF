@@ -1,0 +1,5 @@
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.Model\bin\Debug\JoeCoffeeStore.StockManagement.Model.dll
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.Model\bin\Debug\JoeCoffeeStore.StockManagement.Model.pdb
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.Model\obj\Debug\JoeCoffeeStore.StockManagement.Model.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.Model\obj\Debug\JoeCoffeeStore.StockManagement.Model.dll
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.Model\obj\Debug\JoeCoffeeStore.StockManagement.Model.pdb
