@@ -3,6 +3,6 @@
     public interface IDialogService
     {
         void CloseDetailDialog();
-        void ShowDetailDialog();
+        void ShowDetailDialog(bool isValidationDialog = false);
     }
 }

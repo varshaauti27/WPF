@@ -45,7 +45,7 @@
             <TextBox Grid.Row="6" Grid.Column="3" Text="{Binding SelectedCoffee.FirstAddedToStockDate, Mode=TwoWay}" Grid.ColumnSpan="2"></TextBox>
             <TextBox Grid.Row="7" Grid.Column="3" Text="{Binding SelectedCoffee.ExtraDescription, Mode=TwoWay, FallbackValue='NA'}" Grid.ColumnSpan="2"></TextBox>
 
-            <StackPanel Grid.Row="8" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10" Grid.Column="4">
+            <StackPanel Grid.Row="8" Orientation="Horizontal" Margin="0,10,0,10" Grid.Column="4">
                 <!--<Button Content="Save" Command="{Binding SaveCommand}"></Button>
                 <Button Content="Delete" Command="{Binding DeleteCommand}"></Button>-->
                 <Button Content="Save">

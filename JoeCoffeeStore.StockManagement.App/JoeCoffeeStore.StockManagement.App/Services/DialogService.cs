@@ -5,18 +5,25 @@ namespace JoeCoffeeStore.StockManagement.App.Services
 {
     class DialogService : IDialogService
     {
-        Window coffeeDetailView = null;
+        Window dialogWindow = null;
 
         public void CloseDetailDialog()
         {
-            if (coffeeDetailView != null)
-                coffeeDetailView.Close();
+            if (dialogWindow != null)
+                dialogWindow.Close();
         }
 
-        public void ShowDetailDialog()
+        public void ShowDetailDialog(bool isValidationDialog = false)
         {
-            coffeeDetailView = new CoffeeDetailView();
-            coffeeDetailView.ShowDialog();
+            if (isValidationDialog)
+            {
+                dialogWindow = new ValidationDemo();
+            }
+            else
+            {
+                dialogWindow = new CoffeeDetailView();
+            }
+            dialogWindow.ShowDialog();
         }
     }
 }

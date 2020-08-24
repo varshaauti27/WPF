@@ -1,0 +1,11 @@
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\bin\x86\Debug\Zza.Data.dll.config
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\bin\x86\Debug\Zza.Data.dll
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\bin\x86\Debug\Zza.Data.pdb
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\bin\x86\Debug\EntityFramework.dll
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\bin\x86\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\bin\x86\Debug\EntityFramework.xml
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\bin\x86\Debug\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\obj\x86\Debug\Zza.Data.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\obj\x86\Debug\Zza.Data.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\obj\x86\Debug\Zza.Data.dll
+\\Mac\Home\Documents\GitHub\WPF\ZzaDesktop\Zza.Data\obj\x86\Debug\Zza.Data.pdb

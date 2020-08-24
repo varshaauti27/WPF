@@ -13,11 +13,13 @@
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\View\CoffeeOverviewView.baml
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\View\CoffeeDetailView.g.cs
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\View\CoffeeOverviewView.g.cs
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\View\ValidationDemo.g.cs
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\App.g.cs
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\GeneratedInternalTypeHelper.g.cs
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\JoeCoffeeStore.StockManagement.App_MarkupCompile.cache
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\JoeCoffeeStore.StockManagement.App_MarkupCompile.lref
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\App.baml
+\\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\View\ValidationDemo.baml
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\JoeCoffeeStore.StockManagement.App.g.resources
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\JoeCoffeeStore.StockManagement.App.Properties.Resources.resources
 \\Mac\Home\Documents\GitHub\WPF\JoeCoffeeStore.StockManagement.App\JoeCoffeeStore.StockManagement.App\obj\Debug\JoeCoffeeStore.StockManagement.App.csproj.GenerateResource.cache

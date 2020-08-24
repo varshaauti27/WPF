@@ -11,6 +11,7 @@ namespace JoeCoffeeStore.StockManagement.App
 
         private static CoffeeOverviewViewModel coffeeOverviewViewModel = new CoffeeOverviewViewModel(coffeeDataService, dialogService);
         private static CoffeeDetailViewModel coffeeDetailViewModel = new CoffeeDetailViewModel(coffeeDataService, dialogService);
+        private static ValidationDemoViewModel validationDemoViewModel = new ValidationDemoViewModel(dialogService);
 
         public static CoffeeDetailViewModel CoffeeDetailViewModel
         {
@@ -25,6 +26,14 @@ namespace JoeCoffeeStore.StockManagement.App
             get
             {
                 return coffeeOverviewViewModel;
+            }
+        }
+
+        public static ValidationDemoViewModel ValidationDemoViewModel
+        {
+            get
+            {
+                return validationDemoViewModel;
             }
         }
     }

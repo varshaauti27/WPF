@@ -9,8 +9,9 @@ namespace JoeCoffeeStore.StockManagement.Tests.Mocks
             
         }
 
-        public void ShowDetailDialog()
+        public void ShowDetailDialog(bool isValidationDialog = false)
         {
+            throw new System.NotImplementedException();
         }
     }
 }

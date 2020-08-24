@@ -76,6 +76,7 @@
     <Compile Include="ViewModel\CoffeeOverviewViewModel.cs" />
     <Compile Include="ViewModel\ICoffeeDetailViewModel.cs" />
     <Compile Include="ViewModel\ICoffeeOverviewViewModel.cs" />
+    <Compile Include="ViewModel\ValidationDemoViewModel.cs" />
     <Compile Include="View\CoffeeDetailView.xaml.cs">
       <DependentUpon>CoffeeDetailView.xaml</DependentUpon>
     </Compile>
@@ -86,11 +87,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="View\StringToIntValidationRule.cs" />
+    <Compile Include="View\ValidationDemo.xaml.cs">
+      <DependentUpon>ValidationDemo.xaml</DependentUpon>
+    </Compile>
     <Page Include="View\CoffeeDetailView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\CoffeeOverviewView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ValidationDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

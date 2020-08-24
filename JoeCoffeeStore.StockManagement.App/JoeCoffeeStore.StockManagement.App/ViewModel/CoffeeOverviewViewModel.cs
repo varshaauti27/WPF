@@ -6,6 +6,8 @@ using JoeCoffeeStore.StockManagement.App.Extensions;
 using System.Windows.Input;
 using JoeCoffeeStore.StockManagement.App.Utility;
 using JoeCoffeeStore.StockManagement.App.Messages;
+using MahApps.Metro.Controls;
+using System;
 
 namespace JoeCoffeeStore.StockManagement.App.ViewModel
 {
@@ -15,6 +17,7 @@ namespace JoeCoffeeStore.StockManagement.App.ViewModel
         private ICoffeeDataService coffeeDataService;
         private IDialogService dialogService;
         public ICommand EditCommand { get; set; }
+        public ICommand ValidationDemoCommand { get; set; }
 
         private ObservableCollection<Coffee> coffees;
         public ObservableCollection<Coffee> Coffees
@@ -71,6 +74,17 @@ namespace JoeCoffeeStore.StockManagement.App.ViewModel
         private void LoadCommand()
         {
             EditCommand = new CustomCommand(EditCoffee, CanEditCoffee);
+            ValidationDemoCommand = new CustomCommand(ValidationDemo, CanValidateDemo);
+        }
+
+        private void ValidationDemo(object obj)
+        {
+            dialogService.ShowDetailDialog(true);
+        }
+
+        private bool CanValidateDemo(object obj)
+        {
+            return true;
         }
 
         private bool CanEditCoffee(object obj)
