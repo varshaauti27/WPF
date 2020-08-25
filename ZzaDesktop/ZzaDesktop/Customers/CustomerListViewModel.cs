@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using Zza.Data;
 using ZzaDesktop.Services;
 
@@ -7,7 +9,7 @@ namespace ZzaDesktop.Customers
 {
     public class CustomerListViewModel : BindableBase
     {
-        private ICustomersRepository repo = new CustomersRepository();
+        private ICustomersRepository repo;
 
         private ObservableCollection<Customer> _customers;
 
@@ -17,11 +19,18 @@ namespace ZzaDesktop.Customers
             set { SetProperty(ref _customers, value); }
         }
 
-        public CustomerListViewModel()
+        public CustomerListViewModel(ICustomersRepository repo)
         {
+            this.repo = repo;
             PlaceOrderCommand = new RelayCommand<Customer>(OnPlaceOrder);
             AddCustomerCommand = new RelayCommand(OnAddCustomer);
             EditCustomerCommand = new RelayCommand<Customer>(OnEditCustomer);
+            ClearSearchCommand = new RelayCommand<Customer>(OnClearSearch);
+        }
+
+        private void OnClearSearch(Customer obj)
+        {
+            SearchInput = null;
         }
 
         private void OnEditCustomer(Customer cust)
@@ -43,15 +52,43 @@ namespace ZzaDesktop.Customers
             PlaceOrderRequested(customer.Id);
             //repo.AddCustomerAsync(customer);
         }
+        private List<Customer> _allCustomers;
 
         public async void LoadCustomer()
         {
-            Customers = new ObservableCollection<Customer>(await repo.GetCustomersAsync());
+            _allCustomers = await repo.GetCustomersAsync();
+            Customers = new ObservableCollection<Customer>(_allCustomers);
+        }
+
+        private string _SearchInput;
+
+        public string SearchInput
+        {
+            get { return _SearchInput; }
+            set
+            {
+                SetProperty(ref _SearchInput, value);
+                FilterCustomers(_SearchInput);
+            }
+        }
+
+        private void FilterCustomers(string searchInput)
+        {
+            if (string.IsNullOrWhiteSpace(searchInput))
+            {
+                Customers = new ObservableCollection<Customer>(_allCustomers);
+                return;
+            }
+            else
+            {
+                Customers = new ObservableCollection<Customer>(
+                    _allCustomers.Where(c => c.FullName.ToLower().Contains(searchInput.ToLower())));
+            }
         }
 
         public RelayCommand<Customer> PlaceOrderCommand { get; private set; }
         public RelayCommand AddCustomerCommand { get; private set; }
         public RelayCommand<Customer> EditCustomerCommand { get; private set; }
-
+        public RelayCommand<Customer> ClearSearchCommand { get; private set; }
     } 
 }

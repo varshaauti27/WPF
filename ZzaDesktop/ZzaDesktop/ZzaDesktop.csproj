@@ -74,6 +74,9 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Transactions" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -83,6 +86,12 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Unity.Abstractions, Version=5.11.6.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.11.7\lib\net47\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.11.8.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.11.7\lib\net47\Unity.Container.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
@@ -94,6 +103,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="BindableBase.cs" />
+    <Compile Include="ContainerHelper.cs" />
+    <Compile Include="Converters\NegatableBooleanToVisibilityConverter.cs" />
     <Compile Include="Customers\AddEditCustomerView.xaml.cs">
       <DependentUpon>AddEditCustomerView.xaml</DependentUpon>
     </Compile>
@@ -102,6 +113,7 @@
       <DependentUpon>CustomerListView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Customers\CustomerListViewModel.cs" />
+    <Compile Include="Customers\SimpleEditableCustomer.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="OrderPrep\OrderPrepView.xaml.cs">
       <DependentUpon>OrderPrepView.xaml</DependentUpon>
@@ -116,6 +128,7 @@
     <Compile Include="Services\ICustomersRepository.cs" />
     <Compile Include="Services\IOrdersRepository.cs" />
     <Compile Include="Services\OrdersRepository.cs" />
+    <Compile Include="ValidatableBindableBase.cs" />
     <Page Include="Customers\AddEditCustomerView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -164,6 +177,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Zza.Data.Customer.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
