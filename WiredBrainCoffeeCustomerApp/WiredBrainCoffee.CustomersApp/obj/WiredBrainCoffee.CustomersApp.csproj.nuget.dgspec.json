@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\WPF\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj": {}
+    "C:\\Users\\ashishdesai\\source\\repos\\WPF\\WiredBrainCoffeeCustomerApp\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\WPF\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj": {
+    "C:\\Users\\ashishdesai\\source\\repos\\WPF\\WiredBrainCoffeeCustomerApp\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\WPF\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj",
+        "projectUniqueName": "C:\\Users\\ashishdesai\\source\\repos\\WPF\\WiredBrainCoffeeCustomerApp\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj",
         "projectName": "WiredBrainCoffee.CustomersApp",
-        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\WPF\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj",
+        "projectPath": "C:\\Users\\ashishdesai\\source\\repos\\WPF\\WiredBrainCoffeeCustomerApp\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj",
         "packagesPath": "C:\\Users\\ashishdesai\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\WPF\\WiredBrainCoffee.CustomersApp\\obj\\",
+        "outputPath": "C:\\Users\\ashishdesai\\source\\repos\\WPF\\WiredBrainCoffeeCustomerApp\\WiredBrainCoffee.CustomersApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

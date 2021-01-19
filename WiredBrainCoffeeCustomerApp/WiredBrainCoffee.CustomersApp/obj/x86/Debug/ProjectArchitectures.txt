@@ -1,1 +1,1 @@
-\\Mac\Home\Documents\GitHub\WPF\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp.csproj;x86
+C:\Users\ashishdesai\source\repos\WPF\WiredBrainCoffeeCustomerApp\WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp.csproj;x86

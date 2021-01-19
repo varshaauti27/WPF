@@ -1,3 +1,12 @@
+WinMetadata\Windows.winmd
+App.xbf
+Controls\CustomerDetailControl.xbf
+MainPage.xbf
+Resources\Brushes.xbf
+Resources\FluentXamlThemeEditorExport.xbf
+Resources\Strings.xbf
+Resources\Styles.xbf
+WiredBrainCoffee.CustomersApp.xr.xml
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-125.png
 Assets\LargeTile.scale-150.png
@@ -46,12 +55,3 @@ Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 Images\logo.png
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd
-App.xbf
-Controls\CustomerDetailControl.xbf
-MainPage.xbf
-Resources\Brushes.xbf
-Resources\FluentXamlThemeEditorExport.xbf
-Resources\Strings.xbf
-Resources\Styles.xbf
-WiredBrainCoffee.CustomersApp.xr.xml

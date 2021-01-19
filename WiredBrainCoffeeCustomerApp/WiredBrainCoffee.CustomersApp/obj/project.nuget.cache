@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FN6KMsx0m9RfUNYalo/5zbJ1y7pp0Tflplzpvm32bF7EyXuSetxC1ofUqbDah2HsGjugtx2uvNoqFMi9EAYUdw==",
+  "dgSpecHash": "WZY7CIACgdv+Fw0qQexruFZqTzkkucbSoRIO/F8n3fDhGvw7J2VSRI7jCti532J1tZLvWgi6yAfUXAXWx8QZ6w==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Documents\\GitHub\\WPF\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj",
+  "projectFilePath": "C:\\Users\\ashishdesai\\source\\repos\\WPF\\WiredBrainCoffeeCustomerApp\\WiredBrainCoffee.CustomersApp\\WiredBrainCoffee.CustomersApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ashishdesai\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
     "C:\\Users\\ashishdesai\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
